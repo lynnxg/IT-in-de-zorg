@@ -35,3 +35,7 @@ footer{
   height: 50px;
 }
 
+a:link {
+  color: #000000;
+  text-decoration: none;
+  }
