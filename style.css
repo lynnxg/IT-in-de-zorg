@@ -1,8 +1,8 @@
 Nav{
   float:left;
-  width: 20vw;
+  width: 130px;
   background-color: rgb(184, 232, 248);
-  height: 600px;
+  height: 700px;
 }
 
 Body{
@@ -11,13 +11,16 @@ Body{
 
 Header{
   Background-color: #a6dbf3;
-  height: 80px
+  height: 90px;
+  font-size: 80px;
+  text-align-last: center;
 }
 
 article{
   background-color: white;
-  width: 60vw;
+  width: 85vw;
   margin: 0 auto; 
+
 }
 
 footer{
