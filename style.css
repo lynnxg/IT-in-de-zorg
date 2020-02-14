@@ -20,9 +20,13 @@ article{
   background-color: white;
   width: 85vw;
   margin: 0 auto; 
-
 }
 
+Aside{
+  float:right;
+  width: 130px;
+  height: 700px;
+}
 footer{
   background-color: #a9a9a9;
   position: fixed;
