@@ -1,19 +1,25 @@
-Nav{
-  float:left;
-  width: 130px;
-  background-color: rgb(184, 232, 248);
-  height: 800px;
-}
 
 Body{
   Margin: 0;
 }
 
 Header{
-  Background-color: #a6dbf3;
+  Background-color: #93cce7;
   height: 90px;
-  font-size: 80px;
   text-align-last: center;
+}
+
+#headline {
+  color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 5em;
+}
+
+Nav{
+  float:left;
+  width: 130px;
+  background-color: rgb(205, 236, 247);
+  height: 800px;
 }
 
 article{
