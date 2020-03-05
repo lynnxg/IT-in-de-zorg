@@ -2,7 +2,7 @@ Nav{
   float:left;
   width: 130px;
   background-color: rgb(184, 232, 248);
-  height: 700px;
+  height: 800px;
 }
 
 Body{
@@ -18,15 +18,11 @@ Header{
 
 article{
   background-color: white;
-  width: 85vw;
+  padding-top: 50px;
+  width: 10vw;
   margin: 0 auto; 
 }
 
-Aside{
-  float:right;
-  width: 130px;
-  height: 700px;
-}
 footer{
   background-color: #a9a9a9;
   position: fixed;
@@ -38,4 +34,4 @@ footer{
 a:link {
   color: #000000;
   text-decoration: none;
-  }
+}
