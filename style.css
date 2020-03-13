@@ -25,14 +25,16 @@ Nav{
 article{
   background: url(https://image.freepik.com/free-photo/blurred-interior-hospital-clinical-with-people-abstract-medical-background_1484-1309.jpg);
   background-size: 100%;
-  padding-top: 5px;
-  width: 100vw;
+  padding-top: 10px;
   margin: 0 auto; 
   height: 800px;
 }
 
-{
-
+p{
+  background-color: aliceblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 25px;
 }
 
 footer{
