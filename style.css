@@ -1,31 +1,58 @@
 
 Body{
   Margin: 0;
+   background: url(https://image.freepik.com/free-photo/blurred-interior-hospital-clinical-with-people-abstract-medical-background_1484-1309.jpg);
+  background-size: cover;
+  color: black;
 }
 
 Header{
   Background-color: #93cce7;
-  height: 90px;
+  height: 6vw;
   text-align-last: center;
 }
 
 #headline {
   color: aliceblue;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 5em;
+  font-size: 5vw;
 }
 
-Nav{
-  float:left;
-  width: 130px;
-  background-color: rgb(205, 236, 247);
-  height: 800px;
+ul{
+margin: 0px;
+padding: 0px;
+list-style: none;
+}
+
+ul li{
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: #a9a9a9 ;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+ul li a{
+  text-decoration: none;
+  display: block;
+}
+
+ul li a:hover{
+  background-color: lightblue;
+}
+
+ul li ul li{
+  display: none;
+}
+
+ul li:hover ul li{
+  display: block;
 }
 
 article{
-  background: url(https://image.freepik.com/free-photo/blurred-interior-hospital-clinical-with-people-abstract-medical-background_1484-1309.jpg);
-  background-size: 100%;
-  
   padding-top: 10px;
   margin: 0 auto; 
   height: 800px;
