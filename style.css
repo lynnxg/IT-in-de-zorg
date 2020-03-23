@@ -251,3 +251,9 @@ a:visited {
 .contact-title h2{
   font-size: 20px;
 }
+
+form{
+  margin-top: 50px;
+  transition: all 3s ease-in-out;
+}
+
