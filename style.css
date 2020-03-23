@@ -242,3 +242,8 @@ a:visited {
   color: rgba(10, 10, 252, 0.658);
   transition: all 3s ease-in-out;
 }
+
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
+}
