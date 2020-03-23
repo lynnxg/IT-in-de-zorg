@@ -121,6 +121,10 @@ footer{
   transition: opacity .3s linear
 }
 
+.btn:hover{
+  opacity: .7;
+}
+
 a:link,
 a:visited {
   color: #000000;
