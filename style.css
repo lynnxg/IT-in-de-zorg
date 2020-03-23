@@ -241,6 +241,7 @@ a:visited {
   margin-top: 100px;
   color: rgba(10, 10, 252, 0.658);
   transition: all 3s ease-in-out;
+  text-align: center;
 }
 
 .contact-title h1{
@@ -255,6 +256,7 @@ a:visited {
 form{
   margin-top: 50px;
   transition: all 3s ease-in-out;
+  text-align: center;
 }
 
 .form-control{
