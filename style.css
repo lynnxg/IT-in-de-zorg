@@ -77,6 +77,10 @@ footer{
   width: 50px;
 }
 
+.right-col h1{
+  font-size: 26px;
+}
+
 a:link,
 a:visited {
   color: #000000;
