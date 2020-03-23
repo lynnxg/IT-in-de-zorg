@@ -81,6 +81,19 @@ footer{
   font-size: 26px;
 }
 
+.border{
+  width: 100px;
+  height: 4px;
+  background: aliceblue;
+}
+
+.newsletter-form{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 a:link,
 a:visited {
   color: #000000;
