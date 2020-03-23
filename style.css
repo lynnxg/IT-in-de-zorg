@@ -271,3 +271,14 @@ form{
 input{
   height: 50px;
 }
+
+form .submit{
+  background: rgba(10, 10, 252, 0.658);
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
