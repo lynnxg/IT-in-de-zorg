@@ -24,7 +24,7 @@ padding: 0px;
 list-style: none;
 }
 
-ul li{
+.nav-links ul li{
   float: left;
   width: 200px;
   height: 40px;
@@ -199,7 +199,7 @@ footer{
 
 @media screen and (max-width: 960px){ 
   .footer-container{
-    max-width: 600px;
+    max-width: 300vw;
   }
 }
 
@@ -211,7 +211,6 @@ footer{
 
 .right-col p{
   background-color: #a9a9a9;
-  
   margin: 0;
 }
 
@@ -226,6 +225,10 @@ img{
 
 .dokter{
   max-width: 100vw;
+}
+
+.buiten{
+  max-width: 50vw;
 }
 
 a:link,
