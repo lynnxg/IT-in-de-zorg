@@ -239,7 +239,6 @@ a:visited {
 
 .contact-title{
   color: rgba(10, 10, 252, 0.658);
-  transition: all 3s ease-in-out;
   text-align: center;
   margin-top: 100px
 }
@@ -247,15 +246,16 @@ a:visited {
 .contact-title h1{
   font-size: 32px;
   line-height: 10px;
+  transition: all 3s ease-in-out;
 }
 
 .contact-title h2{
   font-size: 20px;
+  transition: all 3s ease-in-out;
 }
 
 .contact{
   margin-top: 50px;
-  transition: all 3s ease-in-out;
   text-align: center;
 }
 
