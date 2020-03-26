@@ -58,6 +58,21 @@ article{
   height: 800px;
 }
 
+.box{
+  position: absolute;
+  top: 34vw;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+.box select{
+  background: transparent;
+  color: black;
+  padding: 10px;
+  width: 39vw;
+}
+
 p{
   background-color: aliceblue;
   padding-top: 20px;
@@ -229,6 +244,7 @@ img{
 
 .buiten{
   max-width: 50vw;
+  max-height: 30vw;
 }
 
 a:link,
@@ -264,7 +280,7 @@ a:visited {
   background: transparent;
   border: none;
   outline: none;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid black;
   color: black;
   font-size: 18px;
   margin-bottom: 13px;
@@ -275,17 +291,28 @@ input{
 }
 
 form .submit{
-  background: rgba(10, 10, 252, 0.658);
+  background: rgba(19, 42, 252, 0.658);
   border-color: transparent;
   color: #fff;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 2px;
   height: 50px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 form .submit:hover{
   background-color: rgba(13, 10, 185, 0.658);
   cursor: pointer;
+}
+
+.geld{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 13px;
 }
