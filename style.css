@@ -248,10 +248,12 @@ img{
 
 thead{
   background-color: #93cce7;
+  font-size: 1.5vw;
 }
 
 tbody{
   background-color: aliceblue;
+  font-size: 1.5vw;
 }
 
 a:link,
