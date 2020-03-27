@@ -21,7 +21,6 @@ Header{
 ul{
 margin: 0px;
 padding: 0px;
-list-style: none;
 }
 
 .nav-links ul li{
@@ -33,6 +32,7 @@ list-style: none;
   line-height: 40px;
   text-align: center;
   font-size: 20px;
+  list-style: none;
 }
 
 ul li a{
@@ -246,6 +246,10 @@ img{
   max-height: 30vw;
 }
 
+caption{
+  padding-top: 60px;
+}
+
 thead{
   background-color: #93cce7;
   font-size: 1.5vw;
@@ -254,6 +258,15 @@ thead{
 tbody{
   background-color: aliceblue;
   font-size: 1.5vw;
+}
+
+td{
+  padding-left: 40px;
+}
+
+.profiel{
+  max-width: 10vw;
+  max-height: 10vw;
 }
 
 a:link,
